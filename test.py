@@ -27,7 +27,7 @@ dict_language = {'aa':'Afar','sq': 'Albanian','am': 'Amharic','ar': 'Arabic','hy
                  'es': 'Spanish; Castilian','sv': 'Swedish','th': 'Thai','tl': 'Tagalog','tr': 'Turkish','uk': 'Ukrainian',
                  'ur': 'Urdu','und':'Undetermined','vi': 'Vietnamese','vo': 'Volapük','zh': 'Chinese'}
 
-with open('smallTwitter.json', 'r', encoding='utf-8') as f:
+with open('bigTwitter.json', 'r', encoding='utf-8') as f:
     for lines in f:
         lines = lines.strip(',\n')
         if rank == count % size:
